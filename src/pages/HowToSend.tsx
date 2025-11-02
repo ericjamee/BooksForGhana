@@ -11,12 +11,12 @@ export const HowToSend = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <div className="bg-gradient-to-br from-secondary-600 to-primary-600 text-white py-16 px-4 sm:px-6 lg:px-8">
+      <div className="bg-primary-600 text-white py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
             How to Send Books
           </h1>
-          <p className="text-xl text-secondary-100">
+          <p className="text-xl text-primary-100">
             Follow these simple steps to send your books directly to schools in Ghana
           </p>
         </div>
@@ -105,7 +105,7 @@ export const HowToSend = () => {
               <Card key={item.step}>
                 <div className="flex items-start gap-6">
                   <div className="flex-shrink-0">
-                    <div className="w-16 h-16 bg-gradient-to-br from-primary-500 to-secondary-500 rounded-full flex items-center justify-center text-3xl">
+                    <div className="w-16 h-16 bg-primary-500 rounded-full flex items-center justify-center text-3xl">
                       {item.icon}
                     </div>
                   </div>
@@ -122,7 +122,7 @@ export const HowToSend = () => {
           </div>
 
           {/* Shipping Information */}
-          <Card className="bg-gradient-to-br from-gray-50 to-gray-100 border-2 border-primary-200">
+          <Card className="bg-gray-50 border-2 border-primary-200">
             <h3 className="text-2xl font-bold mb-6 flex items-center gap-3">
               <span>📍</span> Shipping Address
             </h3>

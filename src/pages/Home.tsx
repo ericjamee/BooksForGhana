@@ -111,7 +111,7 @@ export const Home = () => {
               </div>
             </div>
             <div className="relative">
-              <div className="bg-gradient-to-br from-primary-50 to-secondary-50 rounded-2xl p-8 aspect-square flex items-center justify-center">
+              <div className="bg-primary-50 rounded-2xl p-8 aspect-square flex items-center justify-center">
                 <span className="text-9xl">📖</span>
               </div>
             </div>
@@ -121,7 +121,7 @@ export const Home = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16">
             <DonationSummary donations={donations} maxItems={5} />
             
-            <Card className="bg-gradient-to-br from-primary-600 to-secondary-600 text-white">
+            <Card className="bg-primary-600 text-white">
               <h3 className="text-2xl font-bold mb-4">Ready to Make a Difference?</h3>
               <p className="mb-6 text-primary-100">
                 Every donation, no matter the size, helps us reach more students and communities.

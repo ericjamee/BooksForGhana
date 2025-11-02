@@ -8,7 +8,7 @@ export const About = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <div className="bg-gradient-to-br from-primary-600 to-secondary-600 text-white py-16 px-4 sm:px-6 lg:px-8">
+      <div className="bg-primary-600 text-white py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
             About Us
@@ -45,7 +45,7 @@ export const About = () => {
           </Card>
 
           {/* Our Mission */}
-          <Card className="mb-12 bg-gradient-to-br from-primary-50 to-secondary-50 border-primary-200">
+          <Card className="mb-12 bg-primary-50 border-primary-200">
             <h2 className="text-3xl font-bold mb-6">Our Mission</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="text-center">
@@ -131,9 +131,9 @@ export const About = () => {
           </div>
 
           {/* Get Involved */}
-          <Card className="bg-gradient-to-br from-secondary-600 to-primary-600 text-white text-center">
+          <Card className="bg-primary-600 text-white text-center">
             <h2 className="text-3xl font-bold mb-4">Want to Get Involved?</h2>
-            <p className="text-xl text-secondary-100 mb-8 max-w-2xl mx-auto">
+            <p className="text-xl text-primary-100 mb-8 max-w-2xl mx-auto">
               Whether you donate books, make a financial contribution, or spread the word,
               every action helps us reach more students.
             </p>
