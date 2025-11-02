@@ -23,7 +23,7 @@ export const Header = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <span className="text-3xl">📚</span>
+            <img src="/logo.png" alt="Books For Ghana Logo" className="h-10 w-auto" />
             <span className="text-xl font-bold text-primary-700">Books For Ghana</span>
           </Link>
 
